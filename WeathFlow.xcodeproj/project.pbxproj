@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A263625D1B3359E400A0ECCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A263625C1B3359E400A0ECCE /* AppDelegate.swift */; };
+		A263625F1B3359E400A0ECCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A263625E1B3359E400A0ECCE /* ViewController.swift */; };
+		A26362621B3359E400A0ECCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26362601B3359E400A0ECCE /* Main.storyboard */; };
+		A26362641B3359E400A0ECCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26362631B3359E400A0ECCE /* Images.xcassets */; };
+		A26362671B3359E400A0ECCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26362651B3359E400A0ECCE /* LaunchScreen.xib */; };
+		A26362731B3359E400A0ECCE /* WeathFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26362721B3359E400A0ECCE /* WeathFlowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A263626D1B3359E400A0ECCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A263624F1B3359E400A0ECCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26362561B3359E400A0ECCE;
+			remoteInfo = WeathFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26362571B3359E400A0ECCE /* WeathFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeathFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A263625B1B3359E400A0ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A263625C1B3359E400A0ECCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A263625E1B3359E400A0ECCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A26362611B3359E400A0ECCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26362631B3359E400A0ECCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A26362661B3359E400A0ECCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A263626C1B3359E400A0ECCE /* WeathFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeathFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26362711B3359E400A0ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26362721B3359E400A0ECCE /* WeathFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathFlowTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26362541B3359E400A0ECCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26362691B3359E400A0ECCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A263624E1B3359E400A0ECCE = {
+			isa = PBXGroup;
+			children = (
+				A26362591B3359E400A0ECCE /* WeathFlow */,
+				A263626F1B3359E400A0ECCE /* WeathFlowTests */,
+				A26362581B3359E400A0ECCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26362581B3359E400A0ECCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26362571B3359E400A0ECCE /* WeathFlow.app */,
+				A263626C1B3359E400A0ECCE /* WeathFlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26362591B3359E400A0ECCE /* WeathFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A263625C1B3359E400A0ECCE /* AppDelegate.swift */,
+				A263625E1B3359E400A0ECCE /* ViewController.swift */,
+				A26362601B3359E400A0ECCE /* Main.storyboard */,
+				A26362631B3359E400A0ECCE /* Images.xcassets */,
+				A26362651B3359E400A0ECCE /* LaunchScreen.xib */,
+				A263625A1B3359E400A0ECCE /* Supporting Files */,
+			);
+			path = WeathFlow;
+			sourceTree = "<group>";
+		};
+		A263625A1B3359E400A0ECCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A263625B1B3359E400A0ECCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A263626F1B3359E400A0ECCE /* WeathFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A26362721B3359E400A0ECCE /* WeathFlowTests.swift */,
+				A26362701B3359E400A0ECCE /* Supporting Files */,
+			);
+			path = WeathFlowTests;
+			sourceTree = "<group>";
+		};
+		A26362701B3359E400A0ECCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26362711B3359E400A0ECCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26362561B3359E400A0ECCE /* WeathFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26362761B3359E400A0ECCE /* Build configuration list for PBXNativeTarget "WeathFlow" */;
+			buildPhases = (
+				A26362531B3359E400A0ECCE /* Sources */,
+				A26362541B3359E400A0ECCE /* Frameworks */,
+				A26362551B3359E400A0ECCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeathFlow;
+			productName = WeathFlow;
+			productReference = A26362571B3359E400A0ECCE /* WeathFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A263626B1B3359E400A0ECCE /* WeathFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26362791B3359E400A0ECCE /* Build configuration list for PBXNativeTarget "WeathFlowTests" */;
+			buildPhases = (
+				A26362681B3359E400A0ECCE /* Sources */,
+				A26362691B3359E400A0ECCE /* Frameworks */,
+				A263626A1B3359E400A0ECCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A263626E1B3359E400A0ECCE /* PBXTargetDependency */,
+			);
+			name = WeathFlowTests;
+			productName = WeathFlowTests;
+			productReference = A263626C1B3359E400A0ECCE /* WeathFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A263624F1B3359E400A0ECCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nicole Lehrer";
+				TargetAttributes = {
+					A26362561B3359E400A0ECCE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A263626B1B3359E400A0ECCE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A26362561B3359E400A0ECCE;
+					};
+				};
+			};
+			buildConfigurationList = A26362521B3359E400A0ECCE /* Build configuration list for PBXProject "WeathFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A263624E1B3359E400A0ECCE;
+			productRefGroup = A26362581B3359E400A0ECCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26362561B3359E400A0ECCE /* WeathFlow */,
+				A263626B1B3359E400A0ECCE /* WeathFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26362551B3359E400A0ECCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26362621B3359E400A0ECCE /* Main.storyboard in Resources */,
+				A26362671B3359E400A0ECCE /* LaunchScreen.xib in Resources */,
+				A26362641B3359E400A0ECCE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A263626A1B3359E400A0ECCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26362531B3359E400A0ECCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A263625F1B3359E400A0ECCE /* ViewController.swift in Sources */,
+				A263625D1B3359E400A0ECCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26362681B3359E400A0ECCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26362731B3359E400A0ECCE /* WeathFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A263626E1B3359E400A0ECCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26362561B3359E400A0ECCE /* WeathFlow */;
+			targetProxy = A263626D1B3359E400A0ECCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A26362601B3359E400A0ECCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26362611B3359E400A0ECCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26362651B3359E400A0ECCE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26362661B3359E400A0ECCE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26362741B3359E400A0ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A26362751B3359E400A0ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26362771B3359E400A0ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeathFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A26362781B3359E400A0ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeathFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A263627A1B3359E400A0ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeathFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeathFlow.app/WeathFlow";
+			};
+			name = Debug;
+		};
+		A263627B1B3359E400A0ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeathFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeathFlow.app/WeathFlow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26362521B3359E400A0ECCE /* Build configuration list for PBXProject "WeathFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26362741B3359E400A0ECCE /* Debug */,
+				A26362751B3359E400A0ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26362761B3359E400A0ECCE /* Build configuration list for PBXNativeTarget "WeathFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26362771B3359E400A0ECCE /* Debug */,
+				A26362781B3359E400A0ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A26362791B3359E400A0ECCE /* Build configuration list for PBXNativeTarget "WeathFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A263627A1B3359E400A0ECCE /* Debug */,
+				A263627B1B3359E400A0ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A263624F1B3359E400A0ECCE /* Project object */;
+}
