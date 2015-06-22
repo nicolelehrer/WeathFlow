@@ -13,6 +13,7 @@
 		A26362641B3359E400A0ECCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26362631B3359E400A0ECCE /* Images.xcassets */; };
 		A26362671B3359E400A0ECCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26362651B3359E400A0ECCE /* LaunchScreen.xib */; };
 		A26362731B3359E400A0ECCE /* WeathFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26362721B3359E400A0ECCE /* WeathFlowTests.swift */; };
+		A29A4E671B38AB4D00E1679E /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A4E661B38AB4D00E1679E /* PagingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A263626C1B3359E400A0ECCE /* WeathFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeathFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26362711B3359E400A0ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26362721B3359E400A0ECCE /* WeathFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeathFlowTests.swift; sourceTree = "<group>"; };
+		A29A4E661B38AB4D00E1679E /* PagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A263625C1B3359E400A0ECCE /* AppDelegate.swift */,
 				A263625E1B3359E400A0ECCE /* ViewController.swift */,
+				A29A4E661B38AB4D00E1679E /* PagingViewController.swift */,
 				A26362601B3359E400A0ECCE /* Main.storyboard */,
 				A26362631B3359E400A0ECCE /* Images.xcassets */,
 				A26362651B3359E400A0ECCE /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29A4E671B38AB4D00E1679E /* PagingViewController.swift in Sources */,
 				A263625F1B3359E400A0ECCE /* ViewController.swift in Sources */,
 				A263625D1B3359E400A0ECCE /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				A26362781B3359E400A0ECCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A26362791B3359E400A0ECCE /* Build configuration list for PBXNativeTarget "WeathFlowTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				A263627B1B3359E400A0ECCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

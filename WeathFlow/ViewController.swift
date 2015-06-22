@@ -12,13 +12,31 @@ var tableDataArray:NSMutableArray = NSMutableArray()
 
 class ViewController: UIViewController, UITableViewDelegate {
     
+    @IBOutlet weak var navBar: UINavigationBar!
+    @IBOutlet weak var refresh: UIBarButtonItem!
     @IBOutlet weak var tableView: UITableView!
+    var dataObject:AnyObject?
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        println(dataObject)
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        getData()
+        navBar.topItem?.title = dataObject as? String
+        
+        
+        getData() //should this go in view will appear
     }
     
+    @IBAction func refreshData(sender: AnyObject) {
+        println("refresh")
+        getData()
+        tableView.reloadData()
+    }
     func getData() -> Void {
         
         //our NYC location
@@ -58,7 +76,7 @@ class ViewController: UIViewController, UITableViewDelegate {
                     formatter.timeZone = NSTimeZone.localTimeZone()
 
                     let tableCellTitle = formatter.stringFromDate(NSDate(timeIntervalSince1970:timeInterval)) + " : \(tempWithDegree)"
-                    println(tableCellTitle)
+                    //println(tableCellTitle)
                     tableDataArray.addObject(tableCellTitle)
                 }
                 
