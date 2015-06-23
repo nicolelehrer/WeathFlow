@@ -48,8 +48,6 @@ class PagingViewController: UIViewController, UIPageViewControllerDelegate, UIPa
     
     
 
-    
-
     func createContentPages(){
         
         println("content was created")
@@ -59,9 +57,6 @@ class PagingViewController: UIViewController, UIPageViewControllerDelegate, UIPa
         let tempArray = ["yesterday", "today", "tomorrow"]
         allPagesContent = tempArray
     }
-    
-    
-    
     
     
     
